@@ -12,6 +12,7 @@ import TwitterCard from './components/TwitterCard'
 import PancakeCard from './components/PancakeCard'
 import EarnAPRCard from './components/EarnAPRCard'
 import AuditCard from './components/AuditCard'
+import CountDown from "./CountDown";
 
 const Hero = styled.div`
   align-items: center;
@@ -102,7 +103,7 @@ const Home: React.FC = () => {
 
 
         </SecondRow>
-
+<CountDown/>
  </Hero>
  
  
